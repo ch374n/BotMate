@@ -1,4 +1,5 @@
-Project repository for python based Webex bot
+Project repository for python based Webex bot for providing TMS & Jenkins alerting, text translation & question answer for pre-configured knowledge base,
+based on open-source LLM models.
 
 Software Requirement: 
 1. Maven
@@ -29,6 +30,19 @@ Step 1: go inside botmate-docs and execute npm install
 Step 2: execute npm run start command and visit localhost:3000
 
 ```
+
+Project Screenshots: 
+1. Help menu
+   ![image](https://github.com/ch374n/BotMate/assets/39785059/69d2bed9-d031-4ebf-92bf-bb48465f2fe3)
+2. TMS Alerting (notifies when tms ticket is assigned to you)
+   ![image](https://github.com/ch374n/BotMate/assets/39785059/bea7625d-6699-4ff2-9162-8344c213c8f3)
+3. Text translation (from Russian to English)
+   ![image](https://github.com/ch374n/BotMate/assets/39785059/9609f81c-5f94-4e43-86e8-3c1b286d6659)
+4. Question/Answering based on pre-configured knowledge base
+   ![image](https://github.com/ch374n/BotMate/assets/39785059/b6500816-801e-4c47-864d-a06b11540a48)
+5. Jenkins Alerting (notifies when configured job fails)
+   ![image](https://github.com/ch374n/BotMate/assets/39785059/20f7abc8-8eb3-4924-8951-fda6f61048e8)
+
 
 Important links: 
 1. https://developer.webex.com/docs/api/v1/messages/create-a-message
